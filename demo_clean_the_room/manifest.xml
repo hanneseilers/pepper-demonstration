@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="cleantheroom-2cf3bf" version="0.0.0">
+ <names>
+  <name lang="en_US">demo_clean_the_room</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="de_DE">Kannst du aufräumen?</sentence>
+    <sentence lang="de_DE">Räum auf</sentence>
+    <sentence lang="de_DE">Aufräumen</sentence>
+    <sentence lang="en_US">Can you clean my room?</sentence>
+    <sentence lang="en_US">Clean my room</sentence>
+    <sentence lang="en_US">Clean</sentence>
+   </triggerSentences>
+   <loadingResponses>
+    <sentence lang="en_US">Let me think about if I can clean your room.</sentence>
+   </loadingResponses>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

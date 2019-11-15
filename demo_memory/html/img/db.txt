@@ -1,0 +1,13 @@
+{
+	'eine Katze': [0, 10],
+	'ein Hund': [13, 14],
+	'ein Auto': [1, 15, 29, 30, 31, 32],
+	'ein Haus': [16, 22, 25],
+	'ein Leuchtturm': [12, 18],
+	'ein Schiff': [11, 17],
+	'eine Windmühle': [19, 20],
+	'eine Möwe': [2, 3, 21, 24, 28],
+	'ein Fahrrad': [4, 7, 26],
+	'ein Baum': [5],
+	'ein Vogel': [8, 9, 6, 23, 27]
+}

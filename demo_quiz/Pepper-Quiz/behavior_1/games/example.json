@@ -1,0 +1,41 @@
+{
+  "title": "Standart Spiel",
+  "description": "",
+  "settings": {
+  	"selectable-num-of-questions": [1, 2, 3],
+  	"speech-speed": 80,
+  	"speech-pitch": 90
+  }, "sections": [
+	{
+	  "section": "Datum und Uhrzeit",
+	  "questions": [
+		{
+		  "text": "Wie spät ist es?",
+		  "response-text": "Das war korrekt!",
+		  "choises": ["3 Uhr", "4 Uhr", "10 Uhr"],
+		  "correct-choises": ["4 Uhr"],
+		  "multiple-selection-required": false
+		},
+		{
+		  "text": "Welchen Tag haben wir heute?",
+		  "response-text": "Ja wir haben Montag!",
+		  "choises": ["Montag", "Dienstag", "Mittwoch", "Den ersten Tag der Woche"],
+		  "correct-choises": ["Montag", "Den ersten Tag der Woche"],
+		  "multiple-selection-required": true
+		}
+	  ]
+	},
+	{
+	  "section": "Befinden",
+	  "questions": [
+		{
+		  "text": "Wie geht es dir?",
+		  "response-text": "Vielen Dank.",
+		  "choises": ["Gut", "Geht so", "Naja, könnte besser sein"],
+		  "correct-choises": [],
+		  "multiple-selection-required": false
+		}
+	  ]
+	}
+  ]
+}

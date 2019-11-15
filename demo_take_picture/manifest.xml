@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="takepicture-55b7b8" version="0.0.1">
+ <names>
+  <name lang="en_US">demo_take_picture</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="de_DE">Mach ein Foto</sentence>
+    <sentence lang="de_DE">Foto</sentence>
+    <sentence lang="en_US">Take a picture</sentence>
+    <sentence lang="en_US">Make a photo</sentence>
+    <sentence lang="en_US">Picture</sentence>
+   </triggerSentences>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
+</package>

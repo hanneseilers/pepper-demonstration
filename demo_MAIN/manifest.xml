@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="webapi" version="0.0.1">
+ <names>
+  <name lang="en_US">demo_MAIN</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">default</name>
+   </names>
+   <triggerSentences>
+    <sentence lang="de_DE">Online</sentence>
+    <sentence lang="de_DE">Bring dich selbst wieder online</sentence>
+    <sentence lang="de_DE">Hallo Emma</sentence>
+    <sentence lang="en_US">Bring yourself back online</sentence>
+    <sentence lang="en_US">Online</sentence>
+   </triggerSentences>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

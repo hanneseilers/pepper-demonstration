@@ -1,0 +1,85 @@
+<html>
+<head>
+
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="form.css">
+
+	<title>Pepper Control</title>
+	
+	<script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>    
+    <script src="robotutils.js"></script>
+    <script src="touch.js"></script>
+    
+</head>
+<body style="height: 100%;">
+
+	<div class="wissjahr-border">
+		<div class="content-container">
+					
+			<table class="content-table" style="height: 100%">
+				<tr>
+					<td style="vertical-align: top;" colspan=2>
+					
+						<div id="alert-wait" class="alert alert-warning">
+							<i class="fa fa-spinner fa-spin"></i> Bitte warte ein paar Sekunden ...
+						</div>
+						<div id="alert-success" class="alert alert-success">
+							Erkennung erfolgreich!
+						</div>
+						<div id="alert-error" class="alert alert-danger">
+							Erkennung fehlgeschlagen :-(<br />
+							Versuch es doch noch einmal.
+						</div>
+					
+						<div id="form">						
+							<table style="width: 100%;">
+								<tr>
+									<td>
+											<b>Wie hei&szlig;t du?</b><br />
+											<input id="name" type="text" placeholder="Dein Name" />
+									</td>
+									<td>
+											<button id="start" type="button" class="btn btn-primary btn-block btn-lg">
+												<h2>Erkennung<br />starten</h2>
+											</button>
+									</td>
+								</tr>
+							</table>							
+						</div>						
+						
+					</td>
+				</tr>
+				<tr>
+					<td>
+						
+							<p>
+								<b>Wir speichern deine biometrischen Daten f&uuml;r max. 14 Tage. Danach werden Sie gel&ouml;scht.</b>
+							</p>
+							
+							<p>
+								Bild-Status: <b><span id="detectionStatus" class="text-light">unbekannt</span></b>
+							</p>
+							
+							<div>
+							<button id="abort" type="button" class="btn btn-default btn-block btn-lg">
+								Abbrechen
+							</button>
+						</div>
+					</td>
+					<td align="center" style="background: #fafafa;">
+						<img id="img" src="img/wait.gif" class="img-responsive" />
+					</td>
+				</tr>
+			</table>
+	
+		</div>
+		
+		<div class="wissjahr-logo">
+			<img src="img/wissjahr-logo.png" />
+		</div>
+
+</body>
+</html>

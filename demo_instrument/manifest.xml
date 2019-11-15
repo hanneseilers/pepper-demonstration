@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="instrument-6049e6" version="0.0.0">
+ <names>
+  <name lang="en_US">demo_instrument</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="de_DE">Kannst du ein Instrument spielen?</sentence>
+    <sentence lang="de_DE">Spielst du ein Instrument?</sentence>
+    <sentence lang="de_DE">Instrument</sentence>
+    <sentence lang="en_US">Can you play an instrument?</sentence>
+    <sentence lang="en_US">Do you play an instrument?</sentence>
+    <sentence lang="en_US">Instrument</sentence>
+   </triggerSentences>
+   <loadingResponses>
+    <sentence lang="de_DE">Na klar spiele ich ein Instrument.</sentence>
+    <sentence lang="en_US">Of course I play an instrument.</sentence>
+   </loadingResponses>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

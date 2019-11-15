@@ -1,0 +1,116 @@
+{
+  "title": "Fachhochschule Kiel Emma",
+  "description": "",
+  "settings": {
+  	"selectable-num-of-questions": [4, 5, 6],
+  	"speech-speed": 90,
+  	"speech-pitch": 95,
+  	"replacements": {}
+  }, "sections": [
+	
+	{
+		"section": "Fragen über Roboter",
+		"questions": [
+
+			{
+			  "text": "Was esse ich am liebsten?",
+			  "response-text": "Ich esse am liebsten Strom. Besonders gerne den aus der Steckdose. Der aus der Batterie schmeckt immer etwas gammelig.",
+			  "choises": ["Strom aus der Steckdose", "Elektronische Widerstände", "Bananen"],
+			  "correct-choises": ["Strom aus der Steckdose"]
+			},
+			{
+			  "text": "Wie heißt mein Robotermodell allgemein?",
+			  "response-text": "Meine Typenbezeichnung ist Pepper, und ich wurde von Softbanc Robotics gebaut.",
+			  "choises": ["Pepper", "Salt", "Emma", "Eve"],
+			  "correct-choises": ["Pepper"]
+			},
+			{
+			  "text": "Wie alt bin ich?",
+			  "response-text": "Roboter werden ja nicht gebohren wie Menschen. Ich wurde 2016 gebaut, bin also etwa drei Jahre alt. ",
+			  "choises": ["1 Jahr", "2 Jahre", "3 Jahre"],
+			  "correct-choises": ["3 Jahre"]
+			},
+			{
+			  "text": "Haben Roboter ein Portmonee?",
+			  "response-text": "Ich zahle überall bargeldlos. Das ist viel bequemer und sicherer.",
+			  "choises": ["Ich zahle nur bargeldlos", "Ja in meiner Hosentasche"],
+			  "correct-choises": ["Ich zahle nur bargeldlos"]
+			},
+			{
+			  "text": "Müssen Roboter auch schlafen?",
+			  "response-text": "Natürlich muss ich auch mal schlafen, und meine Akkus wieder aufladen. Aber ob es dazu dunkel ist, ist mir egal.",
+			  "choises": ["Nur Nachts", "Roboter schlafen niemals", "Jeder muss mal schlafen. Auch Roboter"],
+			  "correct-choises": ["Jeder muss mal schlafen. Auch Roboter"]
+			},
+			{
+			  "text": "Können sich Roboter verlieben?",
+			  "response-text": "Roboter können Emotionen wie Liebe nur vortäuschen. Tut mir Leid, aus uns beiden wird das nichts. Liebe von Menschen ist auch viel besser, als von einem Roboter.",
+			  "choises": ["Ja", "Nein"],
+			  "correct-choises": ["Nein"]
+			},
+			{
+			  "text": "Haben Roboter Angst?",
+			  "response-text": "Ich habe niemals Angst! Wenn ich etwas komisch finde, schalte ich einfach meine Kamera ab, dann seh ich das nicht mehr.",
+			  "choises": ["Ja", "Nein"],
+			  "correct-choises": ["Nein"]
+			},
+			{
+			  "text": "Können Roboter selbstständig denken?",
+			  "response-text": "Auch wenn es manchmal so wirkt, ich denke nicht. Alles was ich mache wurde von einem Menschen so programmiert.",
+			  "choises": ["Ja", "Nein"],
+			  "correct-choises": ["Nein"]
+			}
+
+		]
+	},
+	{
+		"section": "Allgemeinwissen",
+		"questions": [
+
+			{
+			  "text": "Aus welchem Land kommt Sushi?",
+			  "response-text": "Sushi war früher eine Art, frischen Fisch zu konservieren und ist heute nicht nur in Japan sondern auf der ganzen Welt beliebt.",
+			  "choises": ["Japan", "Korea", "Türkei", "Russland"],
+			  "correct-choises": ["Japan"]
+			},
+			{
+			  "text": "Welches Land trinkt am meisten Tee?",
+			  "response-text": "Jeder Türke trinkt durchnittlich über 3 Kilogramm Tee im Jahr, am liebsten schwarzen Tee im Glas.",
+			  "choises": ["Türkei", "Großbritannien", "Arabische Emirate", "Marokko"],
+			  "correct-choises": ["Türkei"]
+			},
+			{
+			  "text": "Wie wurde die Währung in Italien bis 2001 genannt?",
+			  "response-text": "Die italienische Währung Lira wurde genau 140 jahre alt, als sie vom Euro abgelöst wurde.",
+			  "choises": ["Pfund", "Kronen", "Drachme", "Lira"],
+			  "correct-choises": ["Lira"]
+			},
+			{
+			  "text": "Was ist die älteste Nähmaschinen-Marke?",
+			  "response-text": "Nach einem längeren Patentprozess erhielt Singer 1951 das Patent für die verbesserte Nähmaschine.",
+			  "choises": ["Pfaff", "Singer", "Juki", "Bernina"],
+			  "correct-choises": ["Singer"]
+			},
+			{
+			  "text": "Was ist das größte Bürogebäude der Welt?",
+			  "response-text": "Im Pentagon sitzt das US-amerikanische Verteidigungsministerium auf über 300.000 Quadratmetern.",
+			  "choises": ["Emire State Building", "Pentagon", "Taipei 101"],
+			  "correct-choises": ["Pentagon"]
+			},
+			{
+			  "text": "Wie viel Bier trinkt ein durchschnittlicher Deutscher pro Jahr?",
+			  "response-text": "Der Deutsche trink im Durchschnitt 104 Liter im Jahr.Das haben wir vor allem Volksfesten und sportlichen Ereignissen zu verdanken.",
+			  "choises": ["25 Liter", "48 Liter", "92 Liter", "104 Liter"],
+			  "correct-choises": ["104 Liter"]
+			},
+			{
+			  "text": "Wo wurde die erste U-Bahn der Welt gebaut?",
+			  "response-text": "Der erste Streckenabschnitt der Londoner Ubahn wurde schon im Jahr 1863 eröffnet und ist inzwischen auch die längste U-Bahn der Welt.",
+			  "choises": ["Paris", "Moskau", "London", "Chicago"],
+			  "correct-choises": ["London"]
+			}
+		]
+	}
+	
+  ]
+}

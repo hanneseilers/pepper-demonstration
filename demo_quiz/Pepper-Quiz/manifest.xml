@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="pepper-quiz-cff7c2" version="0.0.1">
+ <names>
+  <name lang="de_DE">demo_quiz</name>
+  <name lang="en_US">Pepper-Quiz</name>
+ </names>
+ <supportedLanguages>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="de_DE">quiz</name>
+    <name lang="en_US">quiz-app</name>
+   </names>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <robotRequirement model="JULIETTE"/>
+  <robotRequirement model="NAO"/>
+ </requirements>
+</package>

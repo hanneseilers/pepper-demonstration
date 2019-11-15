@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="gangnamstyle-835df6" version="0.0.1">
+ <names>
+  <name lang="en_US">demo_gangnam_style</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="de_DE">Mach den Gangnam Style</sentence>
+    <sentence lang="de_DE">Gangnam Style</sentence>
+    <sentence lang="en_US">Do the gangnam style</sentence>
+    <sentence lang="en_US">Show me the gangnam style dance</sentence>
+    <sentence lang="en_US">Gangnam style</sentence>
+   </triggerSentences>
+   <loadingResponses>
+    <sentence lang="en_US">You like the real hard stuff, don't you?</sentence>
+   </loadingResponses>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <robotRequirement/>
+ </requirements>
+</package>

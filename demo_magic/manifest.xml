@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="magic-1b727d" version="0.0.0">
+ <names>
+  <name lang="en_US">demo_magic</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="de_DE">Kannst du zaubern?</sentence>
+    <sentence lang="de_DE">Zauber für mich</sentence>
+    <sentence lang="de_DE">Zauberei</sentence>
+    <sentence lang="en_US">Can you do magic</sentence>
+    <sentence lang="en_US">Show me some magic?</sentence>
+    <sentence lang="en_US">Magic</sentence>
+   </triggerSentences>
+   <loadingResponses>
+    <sentence lang="de_DE">Na klar kann ich zaubern. Pass auf!</sentence>
+    <sentence lang="en_US">Of course I can do magic. Pay attention!</sentence>
+   </loadingResponses>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="fistbump-6e3ce6" version="0.0.1">
+ <names>
+  <name lang="en_US">demo_fist_bump</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences>
+    <sentence lang="de_DE">Ghetto Faust</sentence>
+    <sentence lang="de_DE">Gib mir eine Ghetto Faust</sentence>
+    <sentence lang="en_US">Ghetto Fist</sentence>
+    <sentence lang="en_US">Fist Bump</sentence>
+    <sentence lang="en_US">Give me a fist bump</sentence>
+   </triggerSentences>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
+</package>
