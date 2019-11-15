@@ -10,4 +10,4 @@ Start main application.
 Hint: Not all demo applications are included in the main application. Try what they do ;-)
 
 ## Persenter App
-The presenter app requires a Java application 8https://github.com/hanneseilers/naoqi-presenter) to script small dialogs for event perfomances. The DEMO_PRESENTER app need to be uploaded and running on the robot.
+The presenter app requires a Java application (https://github.com/hanneseilers/naoqi-presenter) to script small dialogs for event perfomances. The DEMO_PRESENTER app need to be uploaded and running on the robot.
