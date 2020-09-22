@@ -9,10 +9,15 @@
             <translation type="obsolete">Bitte steh einen Moment still.</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Wait</source>
             <comment>Text</comment>
-            <translation>Please stand still for a moment.</translation>
+            <translation type="vanished">Please stand still for a moment.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Einen Moment bitte. Schau mich an. Ich rate wie alt du bist.</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Einen Moment bitte. Schau mich an. Ich rate wie alt du bist.</translation>
         </message>
     </context>
 </TS>

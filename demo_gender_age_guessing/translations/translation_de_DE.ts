@@ -4,10 +4,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Say Global (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Wait</source>
             <comment>Text</comment>
-            <translation>Bitte steh einen Moment still.</translation>
+            <translation type="vanished">Bitte steh einen Moment still.</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Einen Moment bitte. Schau mich an. Ich rate wie alt du bist.</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
         </message>
     </context>
 </TS>

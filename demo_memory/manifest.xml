@@ -1,26 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="memorymesse-628f3e" version="0.0.0">
+<package version="0.0.0" uuid="memorymesse-628f3e">
  <names>
   <name lang="de_DE">Memory</name>
   <name lang="en_US">demo_memory</name>
  </names>
- <supportedLanguages>
-  <language>en_US</language>
-  <language>de_DE</language>
- </supportedLanguages>
  <descriptionLanguages>
   <language>en_US</language>
   <language>de_DE</language>
+  <language>ar_SA</language>
+  <language>cs_CZ</language>
+  <language>da_DK</language>
+  <language>el_GR</language>
+  <language>es_ES</language>
+  <language>fi_FI</language>
+  <language>fr_FR</language>
+  <language>it_IT</language>
+  <language>ja_JP</language>
+  <language>ko_KR</language>
+  <language>nl_NL</language>
+  <language>nn_NO</language>
+  <language>pl_PL</language>
+  <language>pt_BR</language>
+  <language>pt_PT</language>
+  <language>ru_RU</language>
+  <language>sv_SE</language>
+  <language>tr_TR</language>
+  <language>zh_CN</language>
+  <language>zh_TW</language>
  </descriptionLanguages>
  <contents>
   <behaviorContent path="behavior_1">
    <userRequestable/>
    <nature>interactive</nature>
-   <triggerSentences>
-    <sentence lang="de_DE">Lass uns memory spielen</sentence>
-    <sentence lang="de_DE">Memory</sentence>
-    <sentence lang="en_US">Let's play memory</sentence>
-   </triggerSentences>
    <permissions/>
   </behaviorContent>
  </contents>

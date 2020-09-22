@@ -787,7 +787,7 @@ class MyClass(GeneratedClass):
                 self.bIsRunning = False
 
     def onInput_onStop(self):
-        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="Fail" default_value="" tooltip="" id="5" /></Box><Box name="Say Global (1)" id="1" localization="8" tooltip="Say the text received on its input." x="806" y="139"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="Das hat leider nicht geklappt. Schade." default_value="" tooltip="" id="5" /></Box><Box name="Say Global (1)" id="1" localization="8" tooltip="Say the text received on its input." x="806" y="139"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
 
 class MyClass(GeneratedClass):
     def __init__(self):
@@ -844,7 +844,7 @@ class MyClass(GeneratedClass):
                 self.bIsRunning = False
 
     def onInput_onStop(self):
-        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="Success" default_value="" tooltip="" id="5" /></Box><Box name="Say Global (2)" id="3" localization="8" tooltip="Say the text received on its input." x="81" y="154"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="Danke. Jetzt erkenne ich dich wieder." default_value="" tooltip="" id="5" /></Box><Box name="Say Global (2)" id="3" localization="8" tooltip="Say the text received on its input." x="81" y="154"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
 
 class MyClass(GeneratedClass):
     def __init__(self):
@@ -901,7 +901,7 @@ class MyClass(GeneratedClass):
                 self.bIsRunning = False
 
     def onInput_onStop(self):
-        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="Hello" default_value="" tooltip="" id="5" /></Box><Box name="Say Global (3)" id="10" localization="8" tooltip="Say the text received on its input." x="464" y="135"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="Ja! Lass uns Freunde werden." default_value="" tooltip="" id="5" /></Box><Box name="Say Global (3)" id="10" localization="8" tooltip="Say the text received on its input." x="464" y="135"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
 
 class MyClass(GeneratedClass):
     def __init__(self):
@@ -1037,7 +1037,7 @@ class MyClass(GeneratedClass):
                 self.bIsRunning = False
 
     def onInput_onStop(self):
-        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="Length" default_value="" tooltip="" id="5" /></Box><Box name="Hide Web View" id="16" localization="8" tooltip="Hides the webview (html content) on the tablet, behind a generic cover&#x0A;&#x0A;V1.0.0&#x0A;" x="1189" y="99"><bitmap>media/images/box/internet/internet.png</bitmap><script language="4"><content><![CDATA[
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="Bitte gib deinen Namen ein." default_value="" tooltip="" id="5" /></Box><Box name="Hide Web View" id="16" localization="8" tooltip="Hides the webview (html content) on the tablet, behind a generic cover&#x0A;&#x0A;V1.0.0&#x0A;" x="1189" y="99"><bitmap>media/images/box/internet/internet.png</bitmap><script language="4"><content><![CDATA[
 
 class MyClass(GeneratedClass):
 
@@ -1284,64 +1284,7 @@ class MyClass(GeneratedClass):
         elif value != self.targetName and self.subscribeDone:
             self.memory.unsubscribeToEvent("ALTracker/TargetLost", self.getName())
             self.memory.unsubscribeToEvent("ALTracker/TargetReached", self.getName())
-            self.subscribeDone = False]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Output name="targetLost" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent when the target is lost." id="5" /><Output name="targetReached" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent when the target is reached." id="6" /><Parameter name="Mode" inherits_from_parent="0" content_type="3" value="Head" default_value="Head" custom_choice="0" tooltip="Set tracker mode" id="7"><Choice value="Head" /><Choice value="WholeBody" /><Choice value="Move" /></Parameter><Parameter name="Effector" inherits_from_parent="0" content_type="3" value="None" default_value="None" custom_choice="0" tooltip="Set effector to use for tracking. Head is always used." id="8"><Choice value="None" /><Choice value="Arms" /><Choice value="LArm" /><Choice value="RArm" /></Parameter><Parameter name="Width (m)" inherits_from_parent="0" content_type="2" value="0.1" default_value="0.1" min="0.01" max="0.6" tooltip="Width of the face in meters" id="9" /><Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="0.3" default_value="0.3" min="0.01" max="5" tooltip="Distance on X axis the robot will try to maintain from its target in move modes." id="10" /><Parameter name="Threshold X (m)" inherits_from_parent="0" content_type="2" value="0.1" default_value="0.1" min="0.01" max="1" tooltip="Threshold above which the robot will move to track its target in move modes." id="11" /><Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="Distance on Y axis the robot will try to maintain from its target in move modes." id="12" /><Parameter name="Threshold Y (m)" inherits_from_parent="0" content_type="2" value="0.1" default_value="0.1" min="0.01" max="1" tooltip="Threshold above which the robot will move to track its target in move modes." id="13" /><Parameter name="Theta (rad)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-3.14" max="3.14" tooltip="Wz angle of the vector robot-target the robot will try to maintain in move modes." id="14" /><Parameter name="Threshold Theta (rad)" inherits_from_parent="0" content_type="2" value="0.3" default_value="0.3" min="0" max="3.14" tooltip="Threshold of the angle of the vector robot-target above which the robot will move to track its target in move modes." id="15" /></Box><Box name="Say Global (5)" id="22" localization="8" tooltip="Say the text received on its input." x="899" y="618"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
-
-class MyClass(GeneratedClass):
-    def __init__(self):
-        GeneratedClass.__init__(self, False)
-        self.tts = ALProxy('ALTextToSpeech')
-        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
-        self.mem = ALProxy('ALMemory')
-
-    def onLoad(self):
-        self.bIsRunning = False
-        self.ids = []
-
-        try:
-            self.mem.getData( 'sys/speech/shape' )
-        except:
-            self.mem.declareEvent( 'sys/speech/shape' )
-            self.mem.insertData( 'sys/speech/shape', 100 )
-
-        try:
-            self.mem.getData( 'sys/speech/speed' )
-        except:
-            self.mem.declareEvent( 'sys/speech/speed' )
-            self.mem.insertData( 'sys/speech/speed', 100 )
-
-    def onUnload(self):
-        for id in self.ids:
-            try:
-                self.ttsStop.stop(id)
-            except:
-                pass
-        while( self.bIsRunning ):
-            time.sleep( 0.2 )
-
-    def onInput_onStart(self):
-        p = str( self.getParameter("Text") )
-        self.bIsRunning = True
-        try:
-            shape = self.mem.getData( 'sys/speech/shape' )
-            speed = self.mem.getData( 'sys/speech/speed' )
-            sentence = "\RSPD="+ str( speed if speed else 100 ) + "\ "
-            sentence += "\VCT="+ str( shape if shape else 100 ) + "\ "
-            sentence += str(p)
-            sentence +=  "\RST\ "
-            id = self.tts.post.say(str(sentence))
-            self.ids.append(id)
-            self.tts.wait(id, 0)
-        finally:
-            try:
-                self.ids.remove(id)
-            except:
-                pass
-            if( self.ids == [] ):
-                self.onStopped() # activate output of the box
-                self.bIsRunning = False
-
-    def onInput_onStop(self):
-        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="Abort" default_value="" tooltip="" id="5" /></Box><Box name="Tactile Head" id="9" localization="8" tooltip="Detect touch on head tactile sensor." x="117" y="691"><bitmap>media/images/box/sensors/tactileHead.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+            self.subscribeDone = False]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Output name="targetLost" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent when the target is lost." id="5" /><Output name="targetReached" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent when the target is reached." id="6" /><Parameter name="Mode" inherits_from_parent="0" content_type="3" value="Head" default_value="Head" custom_choice="0" tooltip="Set tracker mode" id="7"><Choice value="Head" /><Choice value="WholeBody" /><Choice value="Move" /></Parameter><Parameter name="Effector" inherits_from_parent="0" content_type="3" value="None" default_value="None" custom_choice="0" tooltip="Set effector to use for tracking. Head is always used." id="8"><Choice value="None" /><Choice value="Arms" /><Choice value="LArm" /><Choice value="RArm" /></Parameter><Parameter name="Width (m)" inherits_from_parent="0" content_type="2" value="0.1" default_value="0.1" min="0.01" max="0.6" tooltip="Width of the face in meters" id="9" /><Parameter name="Distance X (m)" inherits_from_parent="0" content_type="2" value="0.3" default_value="0.3" min="0.01" max="5" tooltip="Distance on X axis the robot will try to maintain from its target in move modes." id="10" /><Parameter name="Threshold X (m)" inherits_from_parent="0" content_type="2" value="0.1" default_value="0.1" min="0.01" max="1" tooltip="Threshold above which the robot will move to track its target in move modes." id="11" /><Parameter name="Distance Y (m)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-5" max="5" tooltip="Distance on Y axis the robot will try to maintain from its target in move modes." id="12" /><Parameter name="Threshold Y (m)" inherits_from_parent="0" content_type="2" value="0.1" default_value="0.1" min="0.01" max="1" tooltip="Threshold above which the robot will move to track its target in move modes." id="13" /><Parameter name="Theta (rad)" inherits_from_parent="0" content_type="2" value="0" default_value="0" min="-3.14" max="3.14" tooltip="Wz angle of the vector robot-target the robot will try to maintain in move modes." id="14" /><Parameter name="Threshold Theta (rad)" inherits_from_parent="0" content_type="2" value="0.3" default_value="0.3" min="0" max="3.14" tooltip="Threshold of the angle of the vector robot-target above which the robot will move to track its target in move modes." id="15" /></Box><Box name="Tactile Head" id="9" localization="8" tooltip="Detect touch on head tactile sensor." x="117" y="691"><bitmap>media/images/box/sensors/tactileHead.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self, False)
 
@@ -1534,64 +1477,7 @@ class MyClass(GeneratedClass):
 
     def onInput_onStop(self):
         self.onUnload() #it is recommended to reuse the clean-up as the box is stopped
-        self.onStopped() #activate the output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Output name="onForgotFaces" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" /><Parameter name="n" inherits_from_parent="0" content_type="1" value="5" default_value="0" min="0" max="100" tooltip="" id="6" /></Box><Box name="Say Global (6)" id="21" localization="8" tooltip="Say the text received on its input." x="288" y="856"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
-
-class MyClass(GeneratedClass):
-    def __init__(self):
-        GeneratedClass.__init__(self, False)
-        self.tts = ALProxy('ALTextToSpeech')
-        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
-        self.mem = ALProxy('ALMemory')
-
-    def onLoad(self):
-        self.bIsRunning = False
-        self.ids = []
-
-        try:
-            self.mem.getData( 'sys/speech/shape' )
-        except:
-            self.mem.declareEvent( 'sys/speech/shape' )
-            self.mem.insertData( 'sys/speech/shape', 100 )
-
-        try:
-            self.mem.getData( 'sys/speech/speed' )
-        except:
-            self.mem.declareEvent( 'sys/speech/speed' )
-            self.mem.insertData( 'sys/speech/speed', 100 )
-
-    def onUnload(self):
-        for id in self.ids:
-            try:
-                self.ttsStop.stop(id)
-            except:
-                pass
-        while( self.bIsRunning ):
-            time.sleep( 0.2 )
-
-    def onInput_onStart(self):
-        p = str( self.getParameter("Text") )
-        self.bIsRunning = True
-        try:
-            shape = self.mem.getData( 'sys/speech/shape' )
-            speed = self.mem.getData( 'sys/speech/speed' )
-            sentence = "\RSPD="+ str( speed if speed else 100 ) + "\ "
-            sentence += "\VCT="+ str( shape if shape else 100 ) + "\ "
-            sentence += str(p)
-            sentence +=  "\RST\ "
-            id = self.tts.post.say(str(sentence))
-            self.ids.append(id)
-            self.tts.wait(id, 0)
-        finally:
-            try:
-                self.ids.remove(id)
-            except:
-                pass
-            if( self.ids == [] ):
-                self.onStopped() # activate output of the box
-                self.bIsRunning = False
-
-    def onInput_onStop(self):
-        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="Forgot" default_value="" tooltip="" id="5" /></Box><Box name="Start Demo Main" id="26" localization="0" tooltip="Starts the behavior of the name given as input." x="1460" y="98"><bitmap>media/images/box/box-diagram.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+        self.onStopped() #activate the output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Output name="onForgotFaces" type="1" type_size="1" nature="2" inner="0" tooltip="" id="5" /><Parameter name="n" inherits_from_parent="0" content_type="1" value="5" default_value="0" min="0" max="100" tooltip="" id="6" /></Box><Box name="Start Demo Main" id="26" localization="0" tooltip="Starts the behavior of the name given as input." x="1460" y="98"><bitmap>media/images/box/box-diagram.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self)
         pass
@@ -1613,4 +1499,4 @@ class MyClass(GeneratedClass):
             bm.startBehavior(self.getParameter("behaviorId"))
             self.onBehaviorStarted(self.getParameter("behaviorId")) #~ activate output of the box
         else:
-            self.onBehaviorStarted(None)]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="startBehavior" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onBehaviorStarted" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished. Recalls the behavior name." id="3" /><Parameter name="behaviorId" inherits_from_parent="1" content_type="3" value="demo_MAIN/behavior_1" default_value="" custom_choice="0" tooltip="" id="4" /></Box><Link inputowner="14" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="4" indexofinput="2" outputowner="6" indexofoutput="4" /><Link inputowner="7" indexofinput="2" outputowner="4" indexofoutput="3" /><Link inputowner="8" indexofinput="2" outputowner="4" indexofoutput="4" /><Link inputowner="11" indexofinput="3" outputowner="4" indexofoutput="3" /><Link inputowner="11" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="2" indexofinput="2" outputowner="4" indexofoutput="4" /><Link inputowner="1" indexofinput="2" outputowner="4" indexofoutput="3" /><Link inputowner="3" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="12" indexofinput="2" outputowner="14" indexofoutput="6" /><Link inputowner="5" indexofinput="2" outputowner="12" indexofoutput="4" /><Link inputowner="6" indexofinput="2" outputowner="12" indexofoutput="4" /><Link inputowner="10" indexofinput="2" outputowner="12" indexofoutput="4" /><Link inputowner="13" indexofinput="2" outputowner="12" indexofoutput="5" /><Link inputowner="18" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="19" indexofinput="2" outputowner="1" indexofoutput="4" /><Link inputowner="20" indexofinput="2" outputowner="2" indexofoutput="4" /><Link inputowner="15" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="16" indexofinput="2" outputowner="0" indexofoutput="4" /><Link inputowner="22" indexofinput="2" outputowner="12" indexofoutput="6" /><Link inputowner="16" indexofinput="2" outputowner="22" indexofoutput="4" /><Link inputowner="16" indexofinput="2" outputowner="20" indexofoutput="3" /><Link inputowner="16" indexofinput="2" outputowner="19" indexofoutput="3" /><Link inputowner="9" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="17" indexofinput="2" outputowner="9" indexofoutput="10" /><Link inputowner="23" indexofinput="2" outputowner="9" indexofoutput="8" /><Link inputowner="24" indexofinput="2" outputowner="16" indexofoutput="3" /><Link inputowner="9" indexofinput="3" outputowner="16" indexofoutput="3" /><Link inputowner="25" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="21" indexofinput="2" outputowner="25" indexofoutput="5" /><Link inputowner="26" indexofinput="2" outputowner="24" indexofoutput="3" /><Link inputowner="0" indexofinput="5" outputowner="26" indexofoutput="3" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box></ChoregrapheProject>
+            self.onBehaviorStarted(None)]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="startBehavior" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onBehaviorStarted" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished. Recalls the behavior name." id="3" /><Parameter name="behaviorId" inherits_from_parent="1" content_type="3" value="demo-main/behavior_1" default_value="" custom_choice="0" tooltip="" id="4" /></Box><Link inputowner="14" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="4" indexofinput="2" outputowner="6" indexofoutput="4" /><Link inputowner="7" indexofinput="2" outputowner="4" indexofoutput="3" /><Link inputowner="8" indexofinput="2" outputowner="4" indexofoutput="4" /><Link inputowner="11" indexofinput="3" outputowner="4" indexofoutput="3" /><Link inputowner="11" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="2" indexofinput="2" outputowner="4" indexofoutput="4" /><Link inputowner="1" indexofinput="2" outputowner="4" indexofoutput="3" /><Link inputowner="3" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="12" indexofinput="2" outputowner="14" indexofoutput="6" /><Link inputowner="5" indexofinput="2" outputowner="12" indexofoutput="4" /><Link inputowner="6" indexofinput="2" outputowner="12" indexofoutput="4" /><Link inputowner="10" indexofinput="2" outputowner="12" indexofoutput="4" /><Link inputowner="13" indexofinput="2" outputowner="12" indexofoutput="5" /><Link inputowner="18" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="19" indexofinput="2" outputowner="1" indexofoutput="4" /><Link inputowner="20" indexofinput="2" outputowner="2" indexofoutput="4" /><Link inputowner="15" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="16" indexofinput="2" outputowner="0" indexofoutput="4" /><Link inputowner="16" indexofinput="2" outputowner="20" indexofoutput="3" /><Link inputowner="16" indexofinput="2" outputowner="19" indexofoutput="3" /><Link inputowner="9" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="17" indexofinput="2" outputowner="9" indexofoutput="10" /><Link inputowner="23" indexofinput="2" outputowner="9" indexofoutput="8" /><Link inputowner="24" indexofinput="2" outputowner="16" indexofoutput="3" /><Link inputowner="9" indexofinput="3" outputowner="16" indexofoutput="3" /><Link inputowner="25" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="26" indexofinput="2" outputowner="24" indexofoutput="3" /><Link inputowner="0" indexofinput="5" outputowner="26" indexofoutput="3" /><Link inputowner="16" indexofinput="2" outputowner="12" indexofoutput="6" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box></ChoregrapheProject>

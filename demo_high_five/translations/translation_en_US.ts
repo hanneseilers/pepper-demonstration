@@ -49,10 +49,15 @@
     <context>
         <name>behavior_1/behavior.xar:/Say Global</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation>Hey dude. High five!</translation>
+            <translation type="vanished">Hey dude. High five!</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Hi! Gib mir Fünf!</source>
+            <comment>Text</comment>
+            <translation type="unfinished">Hi! Gib mir Fünf!</translation>
         </message>
     </context>
 </TS>

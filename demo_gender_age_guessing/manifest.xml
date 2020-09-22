@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="genderageexpression-7842c6" version="0.0.0">
+<package version="0.0.0" uuid="genderageexpression-7842c6">
  <names>
   <name lang="en_US">demo_gender_age_guessing</name>
  </names>

@@ -10,8 +10,4 @@
     </Resources>
     <Topics />
     <IgnoredPaths />
-    <Translations auto-fill="en_US">
-        <Translation name="translation_de_DE" src="translations/translation_de_DE.ts" language="de_DE" />
-        <Translation name="translation_en_US" src="translations/translation_en_US.ts" language="en_US" />
-    </Translations>
 </Package>
