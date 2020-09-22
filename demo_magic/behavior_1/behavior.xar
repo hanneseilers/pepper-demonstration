@@ -312,29 +312,7 @@ class MyClass(GeneratedClass):
                 self.bIsRunning = False
 
     def onInput_onStop(self):
-        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="invisible bird" default_value="" tooltip="" id="5" /></Box><Box name="Start Behavior" id="18" localization="0" tooltip="Starts the behavior of the name given as input." x="797" y="56"><bitmap>media/images/box/box-diagram.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
-    def __init__(self):
-        GeneratedClass.__init__(self)
-        pass
-
-    def onLoad(self):
-        #~ puts code for box initialization here
-        pass
-
-    def onUnload(self):
-        #~ puts code for box cleanup here
-        pass
-
-    def onInput_startBehavior(self):
-        life = ALProxy("ALAutonomousLife")
-        state = life.getState()
-
-        if "disabled" in state:
-            bm = ALProxy("ALBehaviorManager")
-            bm.startBehavior(self.getParameter("behaviorId"))
-            self.onBehaviorStarted(self.getParameter("behaviorId")) #~ activate output of the box
-        else:
-            self.onBehaviorStarted(None)]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="startBehavior" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onBehaviorStarted" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished. Recalls the behavior name." id="3" /><Parameter name="behaviorId" inherits_from_parent="1" content_type="3" value="webapi/behavior_1" default_value="" custom_choice="0" tooltip="" id="4" /></Box><Box name="Blink" id="1" localization="8" tooltip="This box makes the robot blink once." x="677" y="159"><bitmap>media/images/box/interaction/LED.png</bitmap><script language="4"><content><![CDATA[import time
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="invisible bird" default_value="" tooltip="" id="5" /></Box><Box name="Blink" id="1" localization="8" tooltip="This box makes the robot blink once." x="677" y="159"><bitmap>media/images/box/interaction/LED.png</bitmap><script language="4"><content><![CDATA[import time
 
 class MyClass(GeneratedClass):
     def __init__(self):
@@ -359,4 +337,26 @@ class MyClass(GeneratedClass):
         self.leds.fadeRGB( "FaceLed7", 0x000000, rDuration )
         time.sleep( 0.1 )
         self.leds.fadeRGB( "FaceLeds", 0xffffff, rDuration )
-        self.onDone()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onDone" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" /></Box><Link inputowner="5" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="15" indexofinput="2" outputowner="5" indexofoutput="3" /><Link inputowner="2" indexofinput="2" outputowner="15" indexofoutput="4" /><Link inputowner="13" indexofinput="2" outputowner="2" indexofoutput="4" /><Link inputowner="18" indexofinput="2" outputowner="0" indexofoutput="4" /><Link inputowner="0" indexofinput="5" outputowner="18" indexofoutput="3" /><Link inputowner="1" indexofinput="2" outputowner="13" indexofoutput="4" /><Link inputowner="18" indexofinput="2" outputowner="1" indexofoutput="3" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box></ChoregrapheProject>
+        self.onDone()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onDone" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" /></Box><Box name="Start Demo Main" id="18" localization="0" tooltip="Starts the behavior of the name given as input." x="870" y="54"><bitmap>media/images/box/box-diagram.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self)
+        pass
+
+    def onLoad(self):
+        #~ puts code for box initialization here
+        pass
+
+    def onUnload(self):
+        #~ puts code for box cleanup here
+        pass
+
+    def onInput_startBehavior(self):
+        life = ALProxy("ALAutonomousLife")
+        state = life.getState()
+
+        if "disabled" in state:
+            bm = ALProxy("ALBehaviorManager")
+            bm.startBehavior(self.getParameter("behaviorId"))
+            self.onBehaviorStarted(self.getParameter("behaviorId")) #~ activate output of the box
+        else:
+            self.onBehaviorStarted(None)]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="startBehavior" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onBehaviorStarted" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished. Recalls the behavior name." id="3" /><Parameter name="behaviorId" inherits_from_parent="1" content_type="3" value="demo_MAIN/behavior_1" default_value="" custom_choice="0" tooltip="" id="4" /></Box><Link inputowner="5" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="15" indexofinput="2" outputowner="5" indexofoutput="3" /><Link inputowner="2" indexofinput="2" outputowner="15" indexofoutput="4" /><Link inputowner="13" indexofinput="2" outputowner="2" indexofoutput="4" /><Link inputowner="1" indexofinput="2" outputowner="13" indexofoutput="4" /><Link inputowner="18" indexofinput="2" outputowner="1" indexofoutput="3" /><Link inputowner="0" indexofinput="5" outputowner="18" indexofoutput="3" /><Link inputowner="18" indexofinput="2" outputowner="0" indexofoutput="4" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box></ChoregrapheProject>

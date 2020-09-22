@@ -86,8 +86,6 @@
         <File name="wait" src="html/img/wait.gif" />
         <File name="wissjahr-logo" src="html/img/wissjahr-logo.png" />
         <File name="settings" src="html/img/settings.png" />
-        <File name="DINPro-Black" src="html/fonts/DINPro-Black.ttf" />
-        <File name="DINPro-Regular" src="html/fonts/DINPro-Regular.ttf" />
         <File name="logo" src="html/img/logo.png" />
         <File name="uni-logo" src="html/img/uni-logo.png" />
         <File name="begin_reco" src="sounds/begin_reco.wav" />
@@ -1548,6 +1546,9 @@
         <File name="volup" src="html/img/volup.png" />
         <File name="down" src="html/img/down.png" />
         <File name="up" src="html/img/up.png" />
+        <File name="verdanab" src="html/fonts/verdanab.ttf" />
+        <File name="rabbit" src="html/img/rabbit.png" />
+        <File name="sailor" src="html/img/sailor.png" />
     </Resources>
     <Topics />
     <IgnoredPaths />

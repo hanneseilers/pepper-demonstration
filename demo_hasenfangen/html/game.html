@@ -1,0 +1,233 @@
+<html>
+<head>
+	<title>Rabbit Game</title>
+
+	<!-- Phaser https://phaser.io -->
+	<script src="jquery.min.js"></script>
+	<script src="robotutils.js"></script>
+	<script src="touch.js"></script>
+	<!--<script src="//cdn.jsdelivr.net/npm/phaser@3.12.0/dist/phaser.min.js"></script>-->
+	<script src="phaser.min.js"></script>
+	<style type="text/css">
+		body{
+			margin: 0;
+		}
+		}
+	</style>
+
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		// some general screen configs
+		var screenWidth = 1280;
+		var screenHeight = 800;
+		var screenOriginWidth = screenWidth / 2;
+		var screenOriginHeight = screenHeight / 2;
+
+		// phaser game config
+    var config = {
+        type: Phaser.AUTO,
+        width: screenWidth,
+        height: screenHeight,
+        scene: {
+            preload: preload,
+            create: create,
+			update: update
+        }
+    };
+
+		// create phaser game object
+    var game = new Phaser.Game(config);
+
+		// variables to handle game
+		var score = 0;
+		var level = 1;
+		var gameOver = false;
+		var nextLevelAt = 50;
+		var scoretext, leveltext, gameOverText, gameOverLevelScore;
+		var gameOverBG;
+		var lastUpdate = Date.now();
+		var updateDelay = 3000;
+		var respawnTime = 6000;
+
+		var rabbits = [];
+
+		// Array of game objects to render: [texture, x, y, scale]
+		var gameObjects = [
+
+			[ 'rabbit', 1050, 290, .2, 10 ],
+			[ 'rabbit', 890, 300, .2, -20 ],
+			[ 'bush2', 980, 360, .33 ],
+
+			[ 'rabbit', 200, 450, .2, 70 ],
+			[ 'rabbit', 80, 230, .2, -20 ],
+			[ 'tree2', 130, 380, .6 ],
+
+			[ 'rabbit', 1080, 450, .2, -45 ],
+			[ 'rabbit', 1190, 380, .2 ],
+			[ 'bush4', 1150, 500, .5 ],
+
+			[ 'rabbit', 120, 520, .3, -25 ],
+			[ 'rabbit', 290, 550, .2, 30 ],
+			[ 'bush1', 200, 630, .5 ],
+
+			[ 'rabbit', 610, 680, .3, 45 ],
+			[ 'rabbit', 400, 660, .3, -45 ],
+			[ 'rabbit', 500, 260, .3 ],
+			[ 'tree1', 500, 550, 1.0 ],
+
+			[ 'rabbit', 900, 570, .4 ],
+			[ 'bush3', 900, 730, .6 ]
+
+		];
+
+
+		// loading textures
+    function preload() {
+        this.load.image('background', 'img/backgrounds/rabbit1.jpg');
+        this.load.image('gameover', 'img/backgrounds/gameover.png');
+        this.load.image('tree1', 'img/tree1.png');
+        this.load.image('tree2', 'img/tree2.png');
+        this.load.image('bush1', 'img/bush1.png');
+        this.load.image('bush2', 'img/bush2.png');
+        this.load.image('bush3', 'img/bush3.png');
+        this.load.image('bush4', 'img/bush4.png');
+        this.load.image('rabbit', 'img/rabbit.png');
+    }
+
+		// create world
+    function create() {
+        // set background
+        this.add.image(screenOriginWidth, screenOriginHeight, 'background');
+        var self = this;
+
+        // load game objects
+        gameObjects.forEach(function (object) {
+            if (object.length > 2) {
+                var img = self.add.image(object[1], object[2], object[0]);
+
+                // save rabbit images
+                if (object[0] == 'rabbit') {
+                    rabbits.push(img);
+                    img.setVisible(false);
+                    img.respawnAfter = 0;
+                    img.setInteractive();
+                }
+
+                // set angle and scale, if available
+                if (object.length > 3) {
+                    img.setScale(object[3], object[3]);
+
+                    if (object.length > 4) {
+                        img.setAngle(object[4]);
+                    }
+                }
+            }
+        });
+
+        // set score text
+        scoretext = this.add.text(16, 16, 'Punkte: 0', {fontSize: '24px', fill: '#000000'});
+        leveltext = this.add.text(16, 45, ' Level: 1', {fontSize: '24px', fill: '#000000'});
+
+        // add gameover background and text
+        gameOverBG = this.add.image(screenOriginWidth, screenOriginHeight, 'gameover').setVisible(false);
+        gameOverText = this.add.text(100, 300, 'Game Over', {fontSize: '200px', fill: '#FF00CC'}).setVisible(false);
+        gameOverLevelScore = this.add.text(130, 500, '100 Punkte', {
+            fontSize: '100px',
+            fill: '#ffffff'
+        }).setVisible(false);
+
+        // set click callback
+        this.input.on('gameobjectdown', onShoot);
+    }
+
+		// update playground
+		function update() {
+
+            // check if to go to next level
+            if (score >= nextLevelAt) {
+                level++;
+                nextLevelAt += level * 50;
+                leveltext.setText(" Level: " + level);
+
+                // security check
+                if (nextLevelAt <= score) {
+                    nextLevelAt += score;
+                }
+
+                if (!gameOver) {
+                    raiseMemoryEvent('rabbitgame/levelChange', level);
+                }
+
+                // adjust updateDelay
+                updateDelay = (updateDelay / 2) + 50;
+		respawnTime = (respawnTime / 2) + 50;
+            }
+
+            if (level > 0 && (Date.now() - lastUpdate) > updateDelay) {
+
+                if (!activateRabbit() && !gameOver) {
+                    gameOver = true;
+                    gameOverBG.setVisible(true);
+                    gameOverText.setVisible(true);
+                    score = score * level;
+                    gameOverLevelScore.setText(score + " Punkte");
+                    gameOverLevelScore.setVisible(true);
+                    level = 0;
+                }
+
+                lastUpdate = Date.now();
+            }
+			if(gameOver){
+		        raiseMemoryEvent('rabbitgame/gameOver', score);
+            }
+        }
+
+		// activates an inactive rabbits and returns true
+		// returns false if there are not inactive rabbits
+		function activateRabbit(){
+        	// chekc if to quit because of game over
+        	if( gameOver ){
+		        raiseMemoryEvent('rabbitgame/gameOver', score);
+        	    return false;
+			}
+
+			// get all inactive rabbit that can be activated
+			var inactiveRabbits = []
+			var now = Date.now();
+			rabbits.forEach( function(rabbit){
+				if( !rabbit.visible && rabbit.respawnAfter < now ){
+					inactiveRabbits.push( rabbit );
+				}
+			} );
+
+			// check if rabbits available
+			if( inactiveRabbits.length == 0 ){
+				return false;
+			}
+
+			// get random inactive rabbit to activate
+			var n = Math.floor( Math.random() * inactiveRabbits.length );
+			rabbit = inactiveRabbits[n];
+			rabbit.setVisible( true );
+
+			return true;
+		}
+
+		// handle shooting a rabbit
+		function onShoot(pointer, rabbit){
+        	if( !gameOver ) {
+                rabbit.setVisible(false);
+                rabbit.respawnAfter = Date.now() + respawnTime;
+                score += Math.round(10 * (1. - rabbit.scaleX));
+                scoretext.setText('Punkte: ' + score);
+                raiseMemoryEvent('rabbitgame/rabbitHit', score);
+            }
+		}
+
+  </script>
+
+</body>
+</html>

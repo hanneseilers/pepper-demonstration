@@ -50,21 +50,6 @@ a:hover{
 	width: 20px;
 	display: inline-block;
 }
-
-.wissjahr-border{
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00305d+65,00305d+100&1+65,0.2+100 */
-	background: -moz-linear-gradient(top,  rgba(0,48,93,1) 65%, rgba(0,48,93,0.2) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(0,48,93,1) 65%,rgba(0,48,93,0.2) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  rgba(0,48,93,1) 65%,rgba(0,48,93,0.2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00305d', endColorstr='#3300305d',GradientType=0 ); /* IE6-9 */
-	
-	border: 10px solid white;
-	border-radius: 15px;
-	
-	padding: 15px;	
-	height:100%;
-	width: 100%;
-}
 .wissjahr-logo{
 	position: fixed;
 	bottom: 25px;

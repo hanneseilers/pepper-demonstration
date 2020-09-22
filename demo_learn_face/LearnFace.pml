@@ -45,8 +45,6 @@
         <File name="_stacked" src="html/font-awesome/scss/_stacked.scss" />
         <File name="_variables" src="html/font-awesome/scss/_variables.scss" />
         <File name="font-awesome" src="html/font-awesome/scss/font-awesome.scss" />
-        <File name="DINPro-Black" src="html/fonts/DINPro-Black.ttf" />
-        <File name="DINPro-Regular" src="html/fonts/DINPro-Regular.ttf" />
         <File name="form" src="html/form.css" />
         <File name="wait" src="html/img/wait.gif" />
         <File name="wissjahr-logo" src="html/img/wissjahr-logo.png" />
@@ -57,6 +55,7 @@
         <File name="index" src="html/index.html" />
         <File name="check" src="html/img/check.png" />
         <File name="camera1" src="behavior_1/camera1.ogg" />
+        <File name="verdanab" src="html/fonts/verdanab.ttf" />
     </Resources>
     <Topics />
     <IgnoredPaths />
