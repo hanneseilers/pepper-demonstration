@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?><ChoregrapheProject xmlns="http://www.aldebaran-robotics.com/schema/choregraphe/project.xsd" xar_version="3"><Box name="root" id="-1" localization="8" tooltip="Root box of Choregraphe&apos;s behavior. Highest level possible." x="0" y="0"><bitmap>media/images/box/root.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Input name="BackBumperPressed" type="0" type_size="1" nature="4" stm_value_name="BackBumperPressed" inner="1" tooltip="BackBumperPressed desc" id="4" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="5" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="Take Picture" id="11" localization="8" tooltip="Enter description here" x="291" y="84"><bitmap>media/images/box/box-diagram.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="Stand Up_onStart" type="1" type_size="1" nature="2" inner="0" tooltip="This input has been automatically generated&#x0A;by converting several boxes into a single box." id="2" /><Output name="HideWebView_onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="This output has been automatically generated&#x0A;by converting several boxes into a single box." id="3" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram scale="70.7107"><Box name="TakePicture" id="2" localization="8" tooltip="ID : #04C 0003&#x0A;&#x0A;===================&#x0A;&#x0A;Tags :&#x0A;- Picture" x="444" y="93"><bitmap>media/images/box/movement/move.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="125"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe14" index="14"><Diagram><Box name="Blink" id="2" localization="8" tooltip="tags:&#x0A;LED" x="108" y="35"><bitmap>media/images/box/interaction/LED.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+<?xml version="1.0" encoding="UTF-8" ?><ChoregrapheProject xmlns="http://www.aldebaran-robotics.com/schema/choregraphe/project.xsd" xar_version="3"><Box name="root" id="-1" localization="8" tooltip="Root box of Choregraphe&apos;s behavior. Highest level possible." x="0" y="0"><bitmap>media/images/box/root.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Input name="BackBumperPressed" type="0" type_size="1" nature="4" stm_value_name="BackBumperPressed" inner="1" tooltip="BackBumperPressed desc" id="4" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="5" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="Take Picture" id="11" localization="8" tooltip="Enter description here" x="335" y="139"><bitmap>media/images/box/box-diagram.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="Stand Up_onStart" type="1" type_size="1" nature="2" inner="0" tooltip="This input has been automatically generated&#x0A;by converting several boxes into a single box." id="2" /><Output name="HideWebView_onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="This output has been automatically generated&#x0A;by converting several boxes into a single box." id="3" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram scale="70.7107"><Box name="TakePicture" id="2" localization="8" tooltip="ID : #04C 0003&#x0A;&#x0A;===================&#x0A;&#x0A;Tags :&#x0A;- Picture" x="444" y="93"><bitmap>media/images/box/movement/move.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="1" fps="25" start_frame="1" end_frame="-1" size="125"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe14" index="14"><Diagram><Box name="Blink" id="2" localization="8" tooltip="tags:&#x0A;LED" x="108" y="35"><bitmap>media/images/box/interaction/LED.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self)
 
@@ -612,4 +612,109 @@ class MyClass(GeneratedClass):
             bm.startBehavior(self.getParameter("behaviorId"))
             self.onBehaviorStarted(self.getParameter("behaviorId")) #~ activate output of the box
         else:
-            self.onBehaviorStarted(None)]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="startBehavior" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onBehaviorStarted" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished. Recalls the behavior name." id="3" /><Parameter name="behaviorId" inherits_from_parent="1" content_type="3" value="demo-main/behavior_1" default_value="" custom_choice="0" tooltip="" id="4" /></Box><Link inputowner="5" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="11" indexofinput="2" outputowner="5" indexofoutput="3" /><Link inputowner="18" indexofinput="2" outputowner="11" indexofoutput="3" /><Link inputowner="0" indexofinput="5" outputowner="18" indexofoutput="3" /><Link inputowner="18" indexofinput="2" outputowner="0" indexofoutput="4" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box></ChoregrapheProject>
+            self.onBehaviorStarted(None)]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="startBehavior" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onBehaviorStarted" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished. Recalls the behavior name." id="3" /><Parameter name="behaviorId" inherits_from_parent="1" content_type="3" value="demo-main/behavior_1" default_value="" custom_choice="0" tooltip="" id="4" /></Box><Box name="Test Cameras" id="1" localization="8" tooltip="Take a picture with one of the cameras camera and store it in his memory in ~/recordings/cameras. The image format is JPG.&#x0A;&#x0A;V1.1.0&#x0A;" x="82" y="277"><bitmap>media/images/box/interaction/picture.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.resolutionMap = {
+            '160 x 120': 0,
+            '320 x 240': 1,
+            '640 x 480': 2,
+            '1280 x 960': 3
+        }
+        self.cameraMap = {
+            'Top': 0,
+            'Bottom': 1
+        }
+
+        self.recordFolder = "/home/nao/recordings/cameras/"
+
+    def onLoad(self):
+        self.bIsRunning = False
+        try:
+            self.photoCapture = ALProxy( "ALPhotoCapture" )
+        except Exception as e:
+            self.photoCapture = None
+            self.logger.error(e)
+            self.onError()
+
+    def onUnload(self):
+        pass
+
+    def onInput_onStart(self):
+        if( self.bIsRunning ):
+            return
+        self.bIsRunning = True
+
+        try:
+            resolution = self.resolutionMap["640 x 480"]
+            cameraID = self.cameraMap["Top"]
+            fileName = self.getParameter("test.jpg")
+            if self.photoCapture:
+                self.photoCapture.setResolution(resolution)
+                self.photoCapture.setCameraID(cameraID)
+                self.photoCapture.setPictureFormat("jpg")
+                self.photoCapture.takePicture( self.recordFolder, fileName )
+            self.bIsRunning = False
+            self.onStopped()
+        except:
+            pass
+        self.onError()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" /><Output name="onError" type="1" type_size="1" nature="1" inner="0" tooltip="" id="4" /></Box><Box name="Say Global" id="2" localization="8" tooltip="Say the text received on its input." x="294" y="392"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+        self.mem = ALProxy('ALMemory')
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+        try:
+            self.mem.getData( 'sys/speech/shape' )
+        except:
+            self.mem.declareEvent( 'sys/speech/shape' )
+            self.mem.insertData( 'sys/speech/shape', 100 )
+
+        try:
+            self.mem.getData( 'sys/speech/speed' )
+        except:
+            self.mem.declareEvent( 'sys/speech/speed' )
+            self.mem.insertData( 'sys/speech/speed', 100 )
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self):
+        p = str( self.getParameter("Text") )
+        self.bIsRunning = True
+        try:
+            shape = self.mem.getData( 'sys/speech/shape' )
+            speed = self.mem.getData( 'sys/speech/speed' )
+            sentence = "\RSPD="+ str( speed if speed else 100 ) + "\ "
+            sentence += "\VCT="+ str( shape if shape else 100 ) + "\ "
+            sentence += str(p)
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="Da scheint was mit meiner Kamera kaputt zu sein. Das klappt gerade nicht." default_value="" tooltip="" id="5" /></Box><Link inputowner="5" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="18" indexofinput="2" outputowner="11" indexofoutput="3" /><Link inputowner="0" indexofinput="5" outputowner="18" indexofoutput="3" /><Link inputowner="18" indexofinput="2" outputowner="0" indexofoutput="4" /><Link inputowner="1" indexofinput="2" outputowner="5" indexofoutput="3" /><Link inputowner="11" indexofinput="2" outputowner="1" indexofoutput="3" /><Link inputowner="2" indexofinput="2" outputowner="1" indexofoutput="4" /><Link inputowner="18" indexofinput="2" outputowner="2" indexofoutput="4" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box></ChoregrapheProject>
