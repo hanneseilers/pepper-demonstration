@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.1" uuid="pepper-quiz-cff7c2">
+<package uuid="pepper-quiz-cff7c2" version="0.0.1">
  <names>
   <name lang="de_DE">demo_quiz</name>
   <name lang="en_US">Pepper-Quiz</name>
