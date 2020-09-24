@@ -3,6 +3,9 @@
  <names>
   <name lang="en_US">demo_MAIN</name>
  </names>
+ <supportedLanguages>
+  <language>de_DE</language>
+ </supportedLanguages>
  <descriptionLanguages>
   <language>en_US</language>
   <language>de_DE</language>

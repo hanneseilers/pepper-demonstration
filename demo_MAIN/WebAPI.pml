@@ -117,7 +117,6 @@
         <File name="de" src="html/img/de.png" />
         <File name="en" src="html/img/en.png" />
         <File name="contact" src="html/img/contact.png" />
-        <File name="behavior (sallysue-thinkpads in Konflikt stehende Kopie 2018-07-05)" src="behavior_1/behavior (sallysue-thinkpads in Konflikt stehende Kopie 2018-07-05).xar" />
         <File name="guitar" src="html/img/guitar.png" />
         <File name="all" src="html/font-awesome/css/all.css" />
         <File name="all.min" src="html/font-awesome/css/all.min.css" />
@@ -1552,4 +1551,7 @@
     </Resources>
     <Topics />
     <IgnoredPaths />
+    <Translations auto-fill="de_DE">
+        <Translation name="translation_de_DE" src="translations/translation_de_DE.ts" language="de_DE" />
+    </Translations>
 </Package>
